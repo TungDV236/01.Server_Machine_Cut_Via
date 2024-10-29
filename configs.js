@@ -51,21 +51,21 @@ var variables_1 = {
   M_Spinner:  'DB5,X2.4' ,
 
   ModelID: 'DB10,REAL526',
-  Tar_Cut:  'DB7,REAL72' ,
-  Step_Z:  'DB7,REAL76' ,
-  Depth_Cut:  'DB7,REAL80' ,
-  Width_Cut:  'DB7,REAL84' ,
+  Tar_Cut:  'DB7,REAL94' ,
+  Step_Z:  'DB7,REAL98' ,
+  Depth_Cut:  'DB7,REAL102' ,
+  Width_Cut:  'DB7,REAL106' ,
 
   H_Roto:  'DB10,REAL514' ,
-  R_Roto:  'DB10,REAL518' ,
-  Center_X:  'DB7,REAL60' ,
-  Center_Y:  'DB7,REAL64' ,
-  Center_Z:  'DB7,REAL68' ,
+  R_Roto:  'DB7,REAL110' ,
+  Center_X:  'DB7,REAL82' ,
+  Center_Y:  'DB7,REAL86' ,
+  Center_Z:  'DB7,REAL90' ,
 
 
 
-  Tar_X:  'DB7,REAL88' ,
-  Tar_Y:  'DB7,REAL92' ,
+  Tar_X:  'DB7,REAL130' ,
+  Tar_Y:  'DB7,REAL134' ,
   Tar_Z:  'DB7,REAL96' ,
 
 
@@ -84,12 +84,12 @@ var variables_1 = {
   
 
   Check_connect:  'DB10,X0.2' ,
-  Limit_X1:  'DB16,REAL20' ,
-  Limit_X2:  'DB16,REAL24' ,
-  Limit_Y1:  'DB16,REAL28' ,
-  Limit_Y2:  'DB16,REAL32' ,
-  Limit_Z1:  'DB16,REAL36' ,
-  Limit_Z2:  'DB16,REAL40' ,
+  Limit_X1:  'DB16,REAL28' ,
+  Limit_X2:  'DB16,REAL32' ,
+  Limit_Y1:  'DB16,REAL36' ,
+  Limit_Y2:  'DB16,REAL40' ,
+  Limit_Z1:  'DB16,REAL44' ,
+  Limit_Z2:  'DB16,REAL48' ,
   X_V_Jog:  'DB7,REAL0' ,
   X_V_Abs:  'DB7,REAL4' ,
   Y_V_Jog:  'DB7,REAL8' ,
@@ -102,13 +102,8 @@ var variables_1 = {
   Error2:  'DB16,Word16' ,
   Alarm1:  'DB16,Word14' ,
   Alarm2:  'DB16,Word18' ,
-  Wait:  'DB5,X4.5' ,
-  Run_S1:  'DB5,X4.6' ,
-  Run_Ep:  'DB5,X4.7' ,
-  Run_Do:  'DB5,X5.0' ,
-  Run_Cut:  'DB5,X5.1' ,
-  Run_Out:  'DB5,X5.2' ,
-  Finish:  'DB5,X5.3' ,
+  Error3:  'DB16,Word20' ,
+  Error4:  'DB16,Word22' ,
   Check_Update:  'DB16,X22.0' ,
   
   ORG_X:  'DB5,X3.7' ,
@@ -118,7 +113,25 @@ var variables_1 = {
   ORG_CUM_OUT:  'DB5,X4.3' ,
   ORG_CUM_EP:  'DB5,X4.4' ,
 
+  Step_Auto: 'DB16,INT24.0' ,
 
+  M_Run_Pump:  'DB5,X4.5' ,
+  Set_H_ORG_Do:  'DB5,X4.6' ,
+  Test_Pos_Do_1_J_P:  'DB5,X4.7' ,
+  Test_Pos_Do_2_J_P:  'DB5,X5.0' ,
+  Test_XY_Center_J_P:  'DB5,X5.1' ,
+  Run_ORG_All_J_P:  'DB5,X5.2' ,
+  Confirm_OK:  'DB7,X80.0' ,
+  Confirm_NG:  'DB7,X80.1' ,
+  R_Dao:  'DB7,REAL114' ,
+  Condition_Do:  'DB7,INT138.0' ,
+  Height_SS_Do:  'DB7,REAL148' ,
+  Height_Do1:  'DB16,REAL52' ,
+  Height_Do2:  'DB16,REAL56' ,
+  Delta_do:  'DB16,REAL60' ,
+  Tar_Z_Cut:  'DB16,REAL64' ,
+  Tar_R_Cut:  'DB16,REAL68' ,
+  Value_SS_Measure:  'DB16,REAL72' ,
 };
 
 module.exports = { variables_1};
