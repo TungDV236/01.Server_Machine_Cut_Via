@@ -113,7 +113,7 @@ var variables_1 = {
   ORG_CUM_OUT:  'DB5,X4.3' ,
   ORG_CUM_EP:  'DB5,X4.4' ,
 
-  Step_Auto: 'DB16,INT24.0' ,
+  Step_Auto: 'DB16,Word24' ,
 
   M_Run_Pump:  'DB5,X4.5' ,
   Set_H_ORG_Do:  'DB5,X4.6' ,
@@ -124,7 +124,7 @@ var variables_1 = {
   Confirm_OK:  'DB7,X80.0' ,
   Confirm_NG:  'DB7,X80.1' ,
   R_Dao:  'DB7,REAL114' ,
-  Condition_Do:  'DB7,INT138.0' ,
+  Condition_Do:  'DB7,INT138' ,
   Height_SS_Do:  'DB7,REAL148' ,
   Height_Do1:  'DB16,REAL52' ,
   Height_Do2:  'DB16,REAL56' ,
@@ -132,6 +132,8 @@ var variables_1 = {
   Tar_Z_Cut:  'DB16,REAL64' ,
   Tar_R_Cut:  'DB16,REAL68' ,
   Value_SS_Measure:  'DB16,REAL72' ,
+  H_Obj:  'DB7,REAL64' ,
+  D_Jig:  'DB7,REAL68' ,
 };
 
 module.exports = { variables_1};
