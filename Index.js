@@ -8,7 +8,7 @@ const { dataController, plc1_controller } = require('./controller')
 
 
 plc1.initiateConnection(
-  { port: 102, host: "192.168.1.122", rack: 0, slot: 1, debug: false },
+  { port: 102, host: "192.168.1.177", rack: 0, slot: 1, debug: false },
   connected_plc1
 );
 //
